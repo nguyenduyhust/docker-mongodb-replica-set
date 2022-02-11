@@ -8,8 +8,8 @@ Add the following config to `/etc/hosts`
 127.0.0.1	mongodb3
 ```
 
+Run docker compose
 ```bash
-# run docker compose
 $ docker-compose up
 ```
 
