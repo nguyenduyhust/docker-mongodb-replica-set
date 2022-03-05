@@ -58,7 +58,7 @@ services:
   mongosetup:
     container_name: mongosetup
     image: "mongo-setup"
-    build: "./mongo-setup"
+    build: "./"
     depends_on:
       - mongodb1
 
