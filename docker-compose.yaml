@@ -66,7 +66,6 @@ services:
       ME_CONFIG_MONGODB_URL: mongodb://mongodb1:27011,mongodb2:27012,mongodb3:27013/?replicaSet=rs0
     ports:
       - 8081:8081
-    restart: on-failure
     depends_on:
       - mongodb1
       - mongosetup
